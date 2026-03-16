@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Interactiva — U4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Galería Interactiva</h1>
+    </header>
+    <section id="controles">
+        <input type="text" id="input-titulo" placeholder="Título de la 
+tarjeta">
+        <input type="text" id="input-descripcion" placeholder="Descripción">
+        <select id="select-categoria">
+            <option value="tecnologia">Tecnología</option>
+            <option value="ciencia">Ciencia</option>
+            <option value="arte">Arte</option>
+        </select>
+        <button id="btn-agregar">Agregar Tarjeta</button>
+    </section>
+    <section id="filtros">
+        <button class="btn-filtro" data-categoria="todas">Todas</button>
+        <button class="btn-filtro" data categoria="tecnologia">Tecnología</button>
+        <button class="btn-filtro" data-categoria="ciencia">Ciencia</button>
+        <button class="btn-filtro" data-categoria="arte">Arte</button>
+    </section>
+    <main id="galeria"></main>
+    <script src="app.js" defer></script>
+</body>
+</html>
