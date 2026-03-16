@@ -1,3 +1,14 @@
 .oculta{
 display:none;
 }
+
+#contador{
+margin:10px 0;
+font-weight:bold;
+}
+
+.mensaje-vacio{
+text-align:center;
+color:gray;
+padding:20px;
+}
